@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C3EC73A1-95AA-4A72-8265-E5BA504E4822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApi", "ShopApi\ShopApi.csproj", "{746F40CB-6201-4FB3-AB39-EE04F7D3A204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9A649254-276B-432A-B5C7-111F76359865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Models", "Shop.Models\Shop.Models.csproj", "{98D5B826-3129-4120-A4E5-13840C017FF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746F40CB-6201-4FB3-AB39-EE04F7D3A204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746F40CB-6201-4FB3-AB39-EE04F7D3A204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746F40CB-6201-4FB3-AB39-EE04F7D3A204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746F40CB-6201-4FB3-AB39-EE04F7D3A204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98D5B826-3129-4120-A4E5-13840C017FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D5B826-3129-4120-A4E5-13840C017FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D5B826-3129-4120-A4E5-13840C017FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D5B826-3129-4120-A4E5-13840C017FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{746F40CB-6201-4FB3-AB39-EE04F7D3A204} = {C3EC73A1-95AA-4A72-8265-E5BA504E4822}
+		{98D5B826-3129-4120-A4E5-13840C017FF7} = {9A649254-276B-432A-B5C7-111F76359865}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04B2D1C-A8E5-4E07-9D60-1477A4F1003D}
+	EndGlobalSection
+EndGlobal
