@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shop.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ShopApi.Controllers
 {
@@ -9,9 +11,9 @@ namespace ShopApi.Controllers
     {
         [HttpGet]
         [Route("")]
-        public string Get()
+        public async Task<ActionResult<List<Category>>> GetAll()
         {
-            return "GET";
+            return new List<Category>();
         }
 
         [HttpGet]
@@ -38,7 +40,7 @@ namespace ShopApi.Controllers
         }
 
         [HttpDelete]
-        [Route("")]
+        [Route("{id:int}")]
         public string Delete()
         {
             return "DELETE";
