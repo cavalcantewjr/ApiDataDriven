@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Shop.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Shop.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shop.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Shop.Models/1.0.0": {
+      "type": "project",
+      "path": "../Shop.Models/Shop.Models.csproj",
+      "msbuildProject": "../Shop.Models/Shop.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Shop.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pichau\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Dev\\Balta.io\\ApiDataDriven\\ApiDataDrivenSolution\\Shop.Models\\Shop.Models.csproj": {
+              "projectPath": "E:\\Dev\\Balta.io\\ApiDataDriven\\ApiDataDrivenSolution\\Shop.Models\\Shop.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
