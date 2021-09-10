@@ -25,18 +25,25 @@ namespace ShopApi.Controllers
 
         [HttpPost]
         [Route("")]
-        public Category Post([FromBody]Category model)
+        public async Task<ActionResult<List<Category>>> Post([FromBody]Category model)
         {
-            return model;
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(model);
         }
 
         [HttpPut]
         [Route("{id:int}")]
-        public Category Put(int id, [FromBody] Category model)
+        public async Task<ActionResult<List<Category>>> Put(int id, [FromBody] Category model)
         {
             if(model.Id == id)
-                return model;
-            return null;
+                return NotFound(new { message = "Categoria não encontrada"});//objeto dinamico. Que não tem um tipo.
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(model);
         }
 
         [HttpDelete]
