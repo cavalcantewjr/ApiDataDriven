@@ -1,0 +1,12 @@
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\bin\Debug\netcoreapp3.1\Shop.Data.deps.json
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\bin\Debug\netcoreapp3.1\Shop.Data.dll
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.csprojAssemblyReference.cache
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.AssemblyInfoInputs.cache
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.AssemblyInfo.cs
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\bin\Debug\netcoreapp3.1\Shop.Data.pdb
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\bin\Debug\netcoreapp3.1\Shop.Models.dll
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\bin\Debug\netcoreapp3.1\Shop.Models.pdb
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.csproj.CoreCompileInputs.cache
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.csproj.CopyComplete
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.dll
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Data\obj\Debug\netcoreapp3.1\Shop.Data.pdb

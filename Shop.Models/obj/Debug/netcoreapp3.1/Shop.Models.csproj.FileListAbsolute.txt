@@ -3,6 +3,7 @@ E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\bin\Debug\netcor
 E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\bin\Debug\netcoreapp3.1\Shop.Models.pdb
 E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.AssemblyInfoInputs.cache
 E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.AssemblyInfo.cs
-E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.csproj.CoreCompileInputs.cache
 E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.dll
 E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.pdb
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.csprojAssemblyReference.cache
+E:\Dev\Balta.io\ApiDataDriven\ApiDataDrivenSolution\Shop.Models\obj\Debug\netcoreapp3.1\Shop.Models.csproj.CoreCompileInputs.cache
