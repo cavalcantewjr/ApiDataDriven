@@ -14,16 +14,18 @@ namespace ShopApi.Controllers
     {
         [HttpGet]
         [Route("")]
-        public async Task<ActionResult<List<Category>>> GetAll()
+        public async Task<ActionResult<List<Category>>> Get([FromServices]DataContext context)
         {
-            return new List<Category>();
+            var categories = await context.Categories.AsNoTracking().ToListAsync();
+            return categories;
         }
 
         [HttpGet]
         [Route("{id:int}")]
-        public string GetById(int id)
+        public async Task<ActionResult<Category>> GetById(int id, [FromServices] DataContext context)
         {
-            return "GET" + id;
+            var category = await context.Categories.AsNoTracking().FirstOrDefaultAsync();
+            return category;
         }
 
         [HttpPost]
@@ -76,9 +78,22 @@ namespace ShopApi.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
-        public string Delete()
+        public async Task<ActionResult<List<Category>>> Delete(int id, [FromServices]DataContext context)
         {
-            return "DELETE";
+            var category = await context.Categories.FirstOrDefaultAsync(x => x.Id == id);
+            if (category == null)
+                return NotFound(new { message = "Categoria não encontrada."});
+
+            try
+            {
+                context.Categories.Remove(category);
+                await context.SaveChangesAsync();
+                return Ok(new { message = "Categoria removida com sucesso!" });
+            }
+            catch(Exception)
+            {
+                return BadRequest(new { message = "Não foi possível remover a categoria "});
+            }
         }
     }
 }
